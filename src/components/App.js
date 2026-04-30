@@ -6,8 +6,8 @@ import Builder from './components/Builder';
 function App() {
   return (
     <DndProvider backend={HTML5Backend}>
-      <div className="App" style={{ fontFamily: 'Arial, sans-serif' }}>
-        <header style={{ padding: '20px', backgroundColor: '#282c34', color: 'white', textAlign: 'center' }}>
+      <div className="App" style={{ fontFamily: 'Merriweather, Georgia', }}>
+        <header style={{ padding: '20px', backgroundColor: '#004225', color: 'white', textAlign: 'center' }}>
           <h1>AI Website Builder</h1>
         </header>
         <Builder />
