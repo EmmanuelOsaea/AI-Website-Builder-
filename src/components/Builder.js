@@ -48,7 +48,7 @@ function RenderBlock({ block, index, onEdit, onGenerateAI }) {
             onChange={(e) => onEdit(index, e.target.value)}
             style={{ width: '100%', padding: '8px', borderRadius: '4px', fontSize: '16px' }}
           />
-          <button style={{ marginTop: '8px', padding: '10px 20px', cursor: 'pointer', borderRadius: '4px', backgroundColor: '', color: 'white', border: 'none' }}>
+          <button style={{ marginTop: '8px', padding: '10px 20px', cursor: 'pointer', borderRadius: '4px', backgroundColor: '#003153', color: 'white', border: 'none' }}>
             {block.content || 'Button'}
           </button>
         </div>
