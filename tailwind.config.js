@@ -5,10 +5,10 @@ module.exports = {
       colors: {
         // --- FRIES THEME TOKENS ---
         Fries: {
-          background: ' ', // 
-          primary: '  ',    // 
-          secondary: ' ',  // 
-          text: '   ',       // 
+          background: '#f5f3f0', // 
+          primary: '#ebe2ca',    // 
+          secondary: '#ad241d',  // 
+          text: '#221d17',       // 
         },
         
         // --- FRIED CHICKEN THEME TOKENS ---
