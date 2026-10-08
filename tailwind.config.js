@@ -15,7 +15,7 @@ module.exports = {
         Friedchicken: {
           background: '#f2e7d5',       // 
           primary: '#b5a9a1',    // 
-          secondary: '   ',  // 
+          secondary: '#d15b0a',  // 
           text: '    ',       // 
         },
       },
