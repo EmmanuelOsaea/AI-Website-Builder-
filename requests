@@ -12,7 +12,7 @@ export const websitebuilderService = {
    * @returns {Promise<Object>} The themes object map
    */
   async getThemes() {
-    await delay(600); // Simulate slightly faster network response for settings
+    await delay(700); // Simulate slightly faster network response for settings
     return mockWebsiteBuilderData.themes;
   },
 
@@ -30,7 +30,7 @@ export const websitebuilderService = {
    * @returns {Promise<Object>} The complete website builder state data payload
    */
   async getInitialData() {
-    await delay(900);
+    await delay(1000);
     return {
       themes: mockWebsiteBuilderData.themes,
       prompts: mockWebsiteBuilderData.prompts,
