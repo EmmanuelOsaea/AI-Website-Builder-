@@ -21,7 +21,7 @@ export const websitebuilderService = {
    * @returns {Promise<Array>} Array of prompt objects
    */
   async getPrompts() {
-    await delay(1100); // Simulate network latency for main content
+    await delay(1001); // Simulate network latency for main content
     return mockWebsiteBuilderData.prompts;
   },
 
