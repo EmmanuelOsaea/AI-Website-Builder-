@@ -1,1 +1,40 @@
+import { mockWebsiteBuilderData } from '../mocks/websitebuilderData';
+
+/**
+ * Simulates an API network request with a configurable delay.
+ * @param {number} ms - The delay time in milliseconds (defaults to 800ms)
+ */
+const delay = (ms = 900) => new Promise(resolve => setTimeout(resolve, ms));
+
+export const websitebuilderService = {
+  /**
+   * Fetches all available food theme configurations.
+   * @returns {Promise<Object>} The themes object map
+   */
+  async getThemes() {
+    await delay(600); // Simulate slightly faster network response for settings
+    return mockWebsiteBuilderData.themes;
+  },
+
+  /**
+   * Fetches the websites.
+   * @returns {Promise<Array>} Array of prompt objects
+   */
+  async getPrompts() {
+    await delay(1100); // Simulate network latency for main content
+    return mockWebsiteBuilderData.prompts;
+  },
+
+  /**
+   * Fetches the entire initial payload (both themes and questions) in one request.
+   * @returns {Promise<Object>} The complete website builder state data payload
+   */
+  async getInitialData() {
+    await delay(900);
+    return {
+      themes: mockWebsiteBuilderData.themes,
+      prompts: mockWebsiteBuilderData.prompts,
+    };
+  }
+};
 
