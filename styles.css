@@ -1,0 +1,125 @@
+/* 1. DEFINE YOUR THEME TOKENS (The unique cake color theme) */
+:root {
+  /* Layout Base Colors */
+  --bg-color: ;       
+  --surface-color: ;     
+  --text-main: ;         
+  --text-muted:  ;        
+
+  /* AI Agent Accent Colors */
+  --agent-primary: ;     /* Burnt Orange for AI/Agent identity */
+  --agent-accent:  ;      /* Electric Indigo for secondary highlights */
+
+  /* Interactive Quiz State Colors */
+  --quiz-correct: #10b981;      /* Emerald green for correct choice */
+  --quiz-incorrect: #ef4444;    /* Vivid red for incorrect choice */
+  --quiz-neutral-border: #334155; /* Default unselected answer border */
+
+  /* Global Layout Properties */
+  --border-radius: 12.2px;
+  --transition-speed: 0.5s;
+}
+
+/* 2. BASE RESET & GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7; stopped here
+}
+
+/* 3. CORE QUIZ APPLICATION STYLES */
+.quiz-container {
+  background-color: var(--surface-color);
+  border: 1.2px solid var(--quiz-neutral-border);
+  border-radius: var(--border-radius);
+  width: 100%;
+  max-width: 552px;
+  padding: 2.2rem;
+  box-shadow: 0 12px 27px -7px rgba(0, 0, 0, 0.3);
+}
+
+.question-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.7rem;
+  color: var(--text-main);
+}
+
+/* Answer Option Buttons */
+.option-button {
+  background-color: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--quiz-neutral-border);
+  border-radius: var(--border-radius);
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--transition-speed) ease-in-out;
+}
+
+.option-button:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-color: var(--text-muted);
+  transform: translateY(-1px);
+}
+
+/* Quiz Modifier States (Add these dynamically via JavaScript classes) */
+.option-button.correct {
+  background-color: rgba(16, 185, 129, 0.1);
+  border-color: var(--quiz-correct);
+  color: var(--quiz-correct);
+}
+
+.option-button.incorrect {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-color: var(--quiz-incorrect);
+  color: var(--quiz-incorrect);
+}
+
+/* 4. THE AI AGENT FEEDBACK BOX */
+
+.agent-feedback-box {
+  background-color: rgba(139, 92, 246, 0.05); /* Slight agent-primary tint */
+  border-left: 4.2px solid var(--agent-primary);
+  border-radius: 4.2px var(--border-radius) var(--border-radius) 4px;
+  padding: 1rem;
+  margin-top: 1.7rem;
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+.agent-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--agent-primary);
+  font-weight: 700;
+  margin-bottom: 0.27rem;
+}
+
+/* Entry Animation for dynamically appearing feedback */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
