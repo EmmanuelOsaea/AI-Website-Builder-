@@ -1,4 +1,4 @@
-/* 1. DEFINE YOUR THEME TOKENS (The Fries and Fried chicken color theme) */
+/* 1. DEFINE YOUR THEME TOKENS (Fries and Fried chicken color theme) */
 :root {
   /* Layout Base Colors */
   --bg-color: ;       
@@ -42,7 +42,7 @@ body {
 /* 3. CORE WEB APPLICATION STYLES */
 .websitebuilder-container {
   background-color: var(--surface-color);
-  border: 1.2px solid var(--websitebuilding-neutral-border);
+  border: 1.2px solid var(--websitebuilder-neutral-border);
   border-radius: var(--border-radius);
   width: 100%;
   max-width: 552px;
@@ -61,7 +61,7 @@ body {
 .send-button {
   background-color: transparent;
   color: var(--text-main);
-  border: 1px solid var(--websitebuilding-neutral-border);
+  border: 1px solid var(--websitebuilder-neutral-border);
   border-radius: var(--border-radius);
   width: 100%;
   padding: 1rem;
@@ -78,7 +78,7 @@ body {
   transform: translateY(-1px);
 }
 
-/* Website building Modifier States (Add these dynamically via JavaScript classes) */
+/* Website builder Modifier States (Add these dynamically via JavaScript classes) */
 .prompt-icon.loading {
   background-color: rgba(16, 185, 129, 0.1);
   border-color: var(--prompt-loading);
