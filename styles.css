@@ -11,8 +11,8 @@
   --agent-accent: #FFFFFF;      /*  for secondary highlights */
 
   /* Interactive Website building State Colors */
-  --prompt-loading: #000080;      /*    */
-  --prompt-analyzing: #4169E1;    /*  */
+  --prompt-loading: #000080;      
+  --prompt-analyzing: #4169E1;    
   --prompt-generating: #191970;
   --prompt-neutral-border: #1B1B1B; /* Default unselected answer border */
 
