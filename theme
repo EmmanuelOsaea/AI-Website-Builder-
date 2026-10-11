@@ -22,11 +22,11 @@ plugin "daisyui/theme" {
 /* 4. Functional UI Feedback Colors */
   --color-info: oklch(  );
   --color-info-content: oklch( );
-  --color-success: oklch( );       /* Muted Green for correct answers */
+  --color-success: oklch( );       /* Muted Green for correct code result */
   --color-success-content: oklch( );
   --color-warning: oklch( );
   --color-warning-content: oklch( );
-  --color-error: oklch( );          /* Muted Crimson for incorrect answers */
+  --color-error: oklch(   )         ;          /* 
   --color-error-content: oklch(  );
 
   /* 5. UI Elements Customization (Optional) */
