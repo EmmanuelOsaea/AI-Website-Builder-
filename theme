@@ -19,28 +19,6 @@ plugin "daisyui/theme" {
   --color-accent: oklch(0.69 0.16 54.6); 
   --color-accent-content: oklch(0.28 0.07 49.8);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 4. Functional UI Feedback Colors */
   --color-info: oklch(  );
   --color-info-content: oklch( );
