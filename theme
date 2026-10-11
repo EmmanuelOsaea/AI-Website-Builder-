@@ -20,18 +20,18 @@ plugin "daisyui/theme" {
   --color-accent-content: oklch(0.28 0.07 49.8);
 
 /* 4. Functional UI Feedback Colors */
-  --color-info: oklch(  );
-  --color-info-content: oklch( );
-  --color-success: oklch( );       /* Muted Green for correct code result */
-  --color-success-content: oklch( );
-  --color-warning: oklch( );
-  --color-warning-content: oklch( );
-  --color-error: oklch(   )         ;          /* 
-  --color-error-content: oklch(  );
+  --color-info: oklch (0.85 0.00 0.0);
+  --color-info-content: oklch(0.77 0.01 154.9);
+  --color-success: oklch(64% 0.22 142);      
+  --color-success-content: oklch(44% 0.16 142);
+  --color-warning: oklch(88% 0.20 100);
+  --color-warning-content: oklch(68% 0.16 95);
+  --color-error: oklch(60% 0.26 25);          
+  --color-error-content: oklch(40% 0.20 25);
 
   /* 5. UI Elements Customization (Optional) */
   --radius-selector: 0.75rem;                 /* Makes checkboxes/radios softer */
   --radius-field: 0.5rem;                     /* Input field roundness */
-  --radius-box: 1rem;                         /* Quiz card roundness */
+  --radius-box: 1rem;                         /* Prompt card roundness */
   --border: 1px;
 }
