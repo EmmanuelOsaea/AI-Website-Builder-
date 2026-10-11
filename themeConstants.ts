@@ -19,13 +19,13 @@ export interface ThemePalette {
 }
 
 export const THEME_PALETTES: Record<string, ThemePalette> = {
-  // 🍗 The Fried Chicken Palette 
-  crispyChicken: {
-    id: "crispy-chicken",
-    name: "Crispy Chicken & Honey",
+  // 🍗 The Fries and Fried Chicken Palette 
+  friedChicken: {
+    id: "fried-chicken",
+    name: "Fried Chicken & Fries",
     bgPage: {
-      light: "oklch(0.98 0.01 79.8)",     // Buttermilk Cream (#FDF8F0)
-      dark: "oklch(0.28 0.07 49.8)",      // Charred Pepper (#421D05)
+      light: "oklch( ) ",     
+      dark: "oklch(   )",     
     },
     bgSurface: {
       light: "oklch(0.80 0.10 64.9)",     // Caramel Ice Cream (#ECAF73)
