@@ -4,29 +4,52 @@ plugin "daisyui/theme" {
   prefersdark: false;
   color-scheme: "light";
 
-  /* 2. Base/Background Colors (Gold and yellow tones) */
-  --color-base-100: oklch(   );      /* Light brown background */
-  --color-base-200: oklch(      );       /* Slightly darker cream for cards */
-  --color-base-300: oklch(86% );       /* Deep cream for borders/dividers */
-  --color-base-content: oklch(23% );   /* Dark espresso text for high readability */
+  /* 2. Base/Background Colors (Deep Fried & Extra Crispy) */
+  --color-base-100: oklch(38% 0.14 43.1);      
+  --color-base-200: oklch(46% 0.17 41.8);       
+  --color-base-300: oklch(29% 0.14 36.3);       
+  --color-base-content: oklch(64% 0.17 62.4);   
 
-  /* 3. Primary & Accent Colors (Rich Caramel & Coffee) */
-  --color-primary: oklch(48% );        /* Warm Caramel Brown */
-  --color-primary-content: oklch(96% );/* Crisp light text inside primary buttons */
-  --color-secondary: oklch(63% );      /* Milky Latte Brown */
-  --color-secondary-content: oklch(18%  );
-  --color-accent: oklch(76% );         /* Light Golden Honey Accent */
-  --color-accent-content: oklch(28%  );
 
-  /* 4. Functional UI Feedback Colors */
-  --color-info: oklch(70%  );
-  --color-info-content: oklch(23% );
-  --color-success: oklch(72% );       /* Muted Green for correct answers */
-  --color-success-content: oklch(26% );
-  --color-warning: oklch(80% );
-  --color-warning-content: oklch(36% );
-  --color-error: oklch(66% );          /* Muted Crimson for incorrect answers */
-  --color-error-content: oklch(23%  );
+  /* 3. Primary & Accent Colors (Light & Golden Batter) */
+  --color-primary: oklch(0.75 0.13 80.0);        
+  --color-primary-content: oklch(0.80 0.10 64.9);
+  --color-secondary: oklch(0.81 0.15 73.5);
+  --color-secondary-content: oklch(0.98 0.01 79.8)
+  --color-accent: oklch(0.69 0.16 54.6); 
+  --color-accent-content: oklch(0.28 0.07 49.8);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 4. Functional UI Feedback Colors */
+  --color-info: oklch(  );
+  --color-info-content: oklch( );
+  --color-success: oklch( );       /* Muted Green for correct answers */
+  --color-success-content: oklch( );
+  --color-warning: oklch( );
+  --color-warning-content: oklch( );
+  --color-error: oklch( );          /* Muted Crimson for incorrect answers */
+  --color-error-content: oklch(  );
 
   /* 5. UI Elements Customization (Optional) */
   --radius-selector: 0.75rem;                 /* Makes checkboxes/radios softer */
