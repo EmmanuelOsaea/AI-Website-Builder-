@@ -1,5 +1,5 @@
 plugin "daisyui/theme" {
-  name: " "; /* Custom name is present */
+  name: "Aura"; /* Custom name is present */
   default: true;        /* Set to true */
   prefersdark: false;
   color-scheme: "light";
