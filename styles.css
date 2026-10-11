@@ -1,20 +1,20 @@
 /* 1. DEFINE YOUR THEME TOKENS (Fries and Fried chicken color theme) */
 :root {
   /* Layout Base Colors */
-  --bg-color: ;       
-  --surface-color: ;     
-  --text-main: ;         
-  --text-muted:  ;        
+  --bg-color: #B76E79;       
+  --surface-color: #D8A33F;     
+  --text-main: #000000;         
+  --text-muted: #4A4A4A;        
 
   /* AI Agent Accent Colors */
-  --agent-primary: ;     /* for AI/Agent identity */
-  --agent-accent:  ;      /*  for secondary highlights */
+  --agent-primary: #FAFAFA;     /* for AI/Agent identity */
+  --agent-accent: #FFFFFF;      /*  for secondary highlights */
 
   /* Interactive Website building State Colors */
-  --prompt-loading: ;      /*    */
-  --prompt-analyzing: ;    /*  */
-  --prompt-generating: ;
-  --prompt-neutral-border: ; /* Default unselected answer border */
+  --prompt-loading: #000080;      /*    */
+  --prompt-analyzing: #4169E1;    /*  */
+  --prompt-generating: #191970;
+  --prompt-neutral-border: #1B1B1B; /* Default unselected answer border */
 
   /* Global Layout Properties */
   --border-radius: 12.2px;
