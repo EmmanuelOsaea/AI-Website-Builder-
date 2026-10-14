@@ -1,0 +1,17 @@
+{
+  "name": "website-builder-app-ai",
+  "version": "1.0.0",
+  "description": "Adaptive Multi-Agent AI Website Builder App",
+  "type": "module",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/langgraph": "^0.2.0",
+    "openai": "^4.0.0",
+    "@anthropic-ai/sdk": "^0.33.0"
+  }
+}
