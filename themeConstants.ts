@@ -24,8 +24,8 @@ export const THEME_PALETTES: Record<string, ThemePalette> = {
     id: "fried-chicken",
     name: "Fried Chicken & Fries",
     bgPage: {
-      light: "oklch( ) ",     
-      dark: "oklch(   )",     
+      light: "oklch(38% 0.14 43.1)",   
+      dark: "oklch(46% 0.17 41.8)",     
     },
     bgSurface: {
       light: "oklch(0.80 0.10 64.9)",     // Caramel Ice Cream (#ECAF73)
@@ -52,8 +52,8 @@ export const THEME_PALETTES: Record<string, ThemePalette> = {
       dark: "oklch(0.81 0.15 73.5)",      // Smooth Orange-Gold (#F9B042)
     },
     success: {
-      light: "oklch(0.57 0.16 138.8)",    // Forest Green (#228B22)
-      dark: "oklch(0.76 0.22 136.0)",     // Lime Green (#32CD32)
+      light: "oklch(64% 0.22 142)",    // Forest Green (#228B22)
+      dark: "oklch(44% 0.16 142)",     // Lime Green (#32CD32)
     }
   },
 
