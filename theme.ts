@@ -1,5 +1,5 @@
 plugin "daisyui/theme" {
-  name: "Fried and Fried Chicken"; /* Custom name is present */
+  name: "Fries and Fried Chicken"; /* Custom name is present */
   default: true;        /* Set to true */
   prefersdark: false;
   color-scheme: "light";
